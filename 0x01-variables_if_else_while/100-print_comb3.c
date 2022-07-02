@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 /**
  * main - Program to print combination of single digits
@@ -9,8 +10,7 @@
 
 int main(void)
 {
-	int a;
-	int b;
+	int a, b;
 
 	for (a = 0; a <= 8; a++)
 	{
@@ -18,8 +18,8 @@ int main(void)
 		{
 			if (a < b)
 			{
-				putchar(a);
-				putchar(b);
+				putchar(a + '0');
+				putchar(b + '0');
 				if (a != 8 || b != 9)
 				{
 					putchar(',');
