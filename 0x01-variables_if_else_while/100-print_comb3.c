@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Program to print all possible combinations of two single digits in ascending order
+ * main - Program to print combinations of two single digits
  *
  * Return: Always 0 (Success!)
  */
@@ -19,7 +19,7 @@ int main(void)
 			{
 				putchar(a);
 				putchar(b);
-				if (a != 8 || b != 9)
+				if (a = '8')
 				{
 					putchar(',');
 					putchar(' ');
