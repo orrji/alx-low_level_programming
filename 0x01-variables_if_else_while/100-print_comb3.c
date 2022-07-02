@@ -1,14 +1,16 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main - Program to print combinations of two single digits
+ * main - Program to print combination of single digits
  *
  * Return: Always 0 (Success!)
  */
 
 int main(void)
 {
-	int a, b;
+	int a;
+	int b;
 
 	for (a = 0; a <= 8; a++)
 	{
