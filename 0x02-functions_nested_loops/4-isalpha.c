@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - checks if alphabet
- * @c: integer input
+ * @c: An integer input
  * Return: 1 if alphabet and 0 if otherwise
  */
 
@@ -16,4 +16,5 @@ int _isalpha(int c)
 	{
 		return (0);
 	}
+	_putchar('\n');
 }
