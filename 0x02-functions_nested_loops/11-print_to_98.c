@@ -16,12 +16,12 @@ void print_to_98(int n)
 		for (a = n; a <=98; a++)
 		{
 			printf("%d", a);
-			if (i < 98)
+			if (a < 98)
 			{
 				printf(", ");
 			}
 		}
-		printf('\n');
+		printf("\n");
 	}
 	else
 	{
@@ -33,6 +33,6 @@ void print_to_98(int n)
 				printf(", ");
 			}
 		}
-		printf('\n');
+		printf("\n");
 	}
 }
