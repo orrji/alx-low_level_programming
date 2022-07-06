@@ -23,7 +23,7 @@ void times_table(void)
 				{
 					_putchar(',');
 					_putchar(' ');
-					if (pdt < 9 && (b != 5 && a != 3) && (a >= 5 && b != 2))
+					if (pdt < 9 )
 					{
 						_putchar(' ');
 					}
