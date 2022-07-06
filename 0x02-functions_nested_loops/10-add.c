@@ -2,8 +2,8 @@
 
 /**
  * add - Adds two integers
- *@a - An integer input a
- *@b - An integer input b
+ *@a: An integer input a
+ *@b: An integer input b
  * Return: returns sum
  */
 
