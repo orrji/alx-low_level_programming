@@ -8,17 +8,16 @@
 
 int main(void)
 {
-	int i, nextTerm;
-
-	int s1 = 1, s2 = 2;
+	int s1 = 1, s2 = 2, n = 0;
 
 	printf("%d, %d, ", s1, s2);
-	for (i = 3; i <= 96; i++)
+	n = s1 + s2;
+	while (n <= 98)
 	{
-		printf("%d, ", nextTerm);
+		printf("%d, ", n);
 		s1 = s2;
-		s2 = nextTerm;
-		nextTerm = s1 + s2;
+		s2 = n;
+		n = s1 + s2;
 	}
 	return (0);
 }
