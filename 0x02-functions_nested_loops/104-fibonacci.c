@@ -8,11 +8,14 @@
 
 int main(void)
 {
-	int s1 = 1, s2 = 2, n = 0;
+	int i;
+
+	int s1 = 1, s2 = 2;
+
+	int n = s1 + s2;
 
 	printf("%d, %d, ", s1, s2);
-	n = s1 + s2;
-	while (n <= 354224848179261915075)
+	for (i = 3; i <= 98; ++i)
 	{
 		printf("%d, ", n);
 		s1 = s2;
