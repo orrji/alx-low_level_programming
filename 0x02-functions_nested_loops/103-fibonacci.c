@@ -17,7 +17,7 @@ int main(void)
 	}
 	if (i % 2 == 0)
 	{
-		sum+= i;
+		sum += i;
 	}
 	printf("%d\n", sum);
 	return (0);
