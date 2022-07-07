@@ -12,7 +12,7 @@ int main(void)
 
 	printf("%d, %d, ", s1, s2);
 	n = s1 + s2;
-	while (n <= 98)
+	while (n <= 354224848179261915075)
 	{
 		printf("%d, ", n);
 		s1 = s2;
