@@ -15,7 +15,7 @@ void print_line(int n)
 	}
 	else
 	{
-		for (x = 0; x < n; x++)
+		for (a = 0; a < n; a++)
 		{
 			_putchar(95);
 		}
