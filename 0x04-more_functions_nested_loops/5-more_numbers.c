@@ -2,7 +2,6 @@
 
 /**
  * more_numbers - Prints more numbers
- * Return: void
  */
 
 void more_numbers(void)
@@ -13,7 +12,7 @@ void more_numbers(void)
 	{
 		for (n2 = 0; n2 < 15; n2++)
 		{
-			if (n >= 10)
+			if (n2 >= 10)
 			{
 				_putchar((n2 / 10) + '0');
 				_putchar((n2 % 10) + '0');
