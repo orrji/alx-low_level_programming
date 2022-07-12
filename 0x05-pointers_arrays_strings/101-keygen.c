@@ -20,8 +20,8 @@ int main(void)
 		if ((x + r) > 2772)
 		break;
 		x = x + r;
-		printf("%c\n", r);
+		printf("%x\n", r);
 	}
-	printf("%c\n", (2772 - x));
+	printf("%x\n", (2772 - x));
 	return (0);
 }
