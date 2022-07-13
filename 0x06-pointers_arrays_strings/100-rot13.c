@@ -6,7 +6,7 @@
  * Return: Encoded string
  */
 
-char *rot13(char *)
+char *rot13(char *s)
 {
 	int i1, i2;
 	char c1[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
