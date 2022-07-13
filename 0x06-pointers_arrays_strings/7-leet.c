@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * leet - Encodes a string
+ * leet - Encodes a string into 1337
  * @s: string parameter
  * Return: Encoded integer
  */
 
-char *leet(char *s);
+char *leet(char *s)
 {
 	int i1, i2;
 	char c1[] = "aAeEoOtTlL";
