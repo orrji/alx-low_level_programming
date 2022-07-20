@@ -4,7 +4,7 @@
  * prime_check - Checks if prime number
  * @f: Checks factor
  * @p: prime number check
- * Return 1 or 0
+ * Return: 1 or 0
  */
 
 int prime_check(int f, int p)
