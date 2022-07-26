@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 	i1 = atoi(argv[1]);
 	if (i1 <= 0)
 	{
-		put("0");
+		puts("0");
 		return (1);
 	}
 	else
@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 		for (i2 = 0; i2 < 5; i2++)
 		{
 			i3 = i1 / i5[i2];
-			i5 -= i3 * i5[i2];
+			i1 -= i3 * i5[i2];
 			i4 += i3;
 			if (i1 == 0)
 				break;
