@@ -63,7 +63,7 @@ char **strtow(char *str)
 				free(c);
 				return (NULL);
 			}
-			for (i4 = 0; i4 < i3; i4++)
+			for (i4 = 0; i4 < i2; i4++)
 				c[wc][i4] = str[i1 + i4];
 			c[wc][i4] = '\0';
 			wc++;
